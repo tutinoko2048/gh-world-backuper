@@ -1,0 +1,18 @@
+{
+  "name": "gh-backup-test",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/unzip-stream": "^0.3.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/archiver": "^7.0.0",
+    "archiver": "^7.0.1",
+    "unzip-stream": "^0.3.4"
+  }
+}
